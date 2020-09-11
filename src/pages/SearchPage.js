@@ -78,7 +78,7 @@ function SearchPage() {
                         <a href={item.displayLink} className='links'>
                             {item.displayLink}
                         </a>
-                        <a className="searchPage_title" href={item.displayLink}>
+                        <a className="searchPage_title" href={item.link}>
                             <h3>{item.title}</h3>
                         </a>
                         <p className="searchPage_snippet">
