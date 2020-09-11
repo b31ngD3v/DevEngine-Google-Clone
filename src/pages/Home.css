@@ -1,0 +1,42 @@
+.topBar {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 30px;
+    padding-top: 15px;
+    justify-content: flex-end;
+}
+#avatar {
+    height: 32px;
+    width: 32px;
+}
+#appIcon {
+    color: rgb(105, 105, 105);
+    padding-right: 15px;
+}
+#appIcon:hover {
+    color: black;
+}
+.topBar a {
+    padding-right: 15px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+.topBar a:hover {
+    text-decoration: underline;
+}
+.logo {
+    margin-top: 110px;
+    margin-bottom: 25px;
+}
+.logo img {
+    object-fit: contain;
+    display: block;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    margin-top: 228px;
+}

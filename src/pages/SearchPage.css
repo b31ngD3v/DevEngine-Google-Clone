@@ -1,0 +1,120 @@
+.headerLogo {
+    padding: 8px 28px 0 25px;
+    top: 4px;
+    height: 40px;
+    margin-right: 40px;
+}
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    padding-top: 20px;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.575);
+    padding-bottom: 23px;
+}
+.options {
+    display: block;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 65px;
+}
+.spOptions {
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.optionsLeft, .optionsRight {
+    display: flex;
+}
+.spOptions a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+.optionsRight {
+    margin-left: 80px;
+}
+.spOptions {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.searchPage_result {
+    margin: 0 0 30px 0;
+}
+.results {
+    max-width: 650px;
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+.searchPage_title {
+    text-decoration: none;
+}
+.searchPage_title:hover {
+    text-decoration: underline;
+}
+.searchPage_title > h3 {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #1a0dab;
+    padding-top: 4px;
+    font-weight: normal;
+}
+.links {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+.searchPage_snippet {
+    margin-top: 5px;
+    color: #4d5156;
+    font-size: 14px;
+}
+.searchPage_count {
+    color: #70757a;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#lcn {
+    height: 16px;
+    width: 16px;
+}
+.spOptions a {
+    font-size: 13px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+}
+.optionsRight{
+    display: block;
+    position: absolute;
+    margin-left: 715px;
+    margin-top: 66px;
+}
+.footer {
+    position: relative;
+    
+}
+#avatar {
+    height: 32px;
+    width: 32px;
+}
+#appIcon {
+    color: rgb(105, 105, 105);
+    padding-right: 15px;
+}
+#appIcon:hover {
+    color: black;
+}
+.topSec {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-right: 30px;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+}
